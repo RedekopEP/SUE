@@ -34,7 +34,7 @@ def main():
     elif args.unc_method == 'Ensemble':
         aleatoric, epistemic = SUE_Ensemble(model, batch=im, last_layer=False)
     elif args.unc_method == 'MCDO':
-        aleatoric, epistemic = SUE_MCDO(model, batch=im, last_layer=False)
+        aleatoric, epistemic = SUE_MCDO(model, batch=im, last_layer=False, T=10)
 
     np.save(args.result_path + 'aleatoric.npy', aleatoric)
     np.save(args.result_path + 'epistemic.npy', epistemic)
