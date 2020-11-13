@@ -1,12 +1,7 @@
-import cv2
-import torch
-from models.unet_do import UNet_DO
-from models.unet import UNet
 import numpy as np
 from unc_estimation import SUE_Ensemble, SUE_TTA, SUE_MCDO
 import argparse
 import os
-from typing import List
 from main_utils import parse, load_image, load_model, to_tensor
 
 
