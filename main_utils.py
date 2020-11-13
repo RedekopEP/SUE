@@ -9,7 +9,7 @@ def parse(parser):
     arg('--image_path', type=str)
     arg('--model_path', type=str)
     arg('--result_path', type=str)
-    arg('--unc_method', type=str, )
+    arg('--unc_method', type=str, choices=['TTA', 'Ensemble', 'MCDO'])
     args = parser.parse_args()
     return args
 
