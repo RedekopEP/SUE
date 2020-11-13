@@ -1,6 +1,6 @@
 import cv2
 import torch
-from models.unet import UNet
+from models2D.unet import UNet
 import numpy as np
 
 
@@ -9,7 +9,7 @@ def parse(parser):
     arg('--image_path', type=str)
     arg('--model_path', type=str)
     arg('--result_path', type=str)
-    arg('--unc_method', type=str)
+    arg('--unc_method', type=str, )
     args = parser.parse_args()
     return args
 
