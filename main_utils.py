@@ -24,6 +24,8 @@ def load_image(_path: str) -> np.ndarray:
 
 
 def to_tensor(im: np.ndarray) -> torch.Tensor:
+    if len(im.shape) != 3:
+        im = im[:, :, None]
     im = np.array([im.transpose((2, 0, 1))])
     return torch.from_numpy(im).to(torch.float32)
 
