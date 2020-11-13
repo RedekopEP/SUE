@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="user@130.138.20.25:8150" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="user@130.138.20.25:8150">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/eredekop/SUE" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
