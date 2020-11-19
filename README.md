@@ -1,9 +1,8 @@
 # SUE - Segmentation Uncertainty Estimation
 Binary Segmentation Uncertainty Estimation in PyTorch.
 
-# Table of Contents
-* [Uncertainty Estimation Methods](#team-members)
-
 # <a name="team-members"></a>Uncertainty Estimation Methods
-* "Monte Carlo Dropout" 
+* MCDO - Monte Carlo Dropout
+* TTA - Test Time Augmentations
+* Ensemble - Ensemble of models with similar architecture but different initialization
 
